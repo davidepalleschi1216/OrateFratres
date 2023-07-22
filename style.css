@@ -1,0 +1,193 @@
+h1,
+h2,
+h3,
+p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+  font-size: 13px;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #2B2A2A;
+}
+
+/* Style the links inside the navigation bar */
+.Title {
+  font-weight: 700;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Settings {
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 100px;
+}
+
+
+
+.Back {
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 100px;
+}
+
+.Input_text {
+  padding-left: 10px;
+  font-size: 15px;
+  height: 40px;
+  width: 95%;
+  border-radius: 100px;
+}
+
+.Submit {
+  width: 50%;
+  height: 40px;
+  background-color: #1d1c1cff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.Row {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.Row::-webkit-scrollbar {
+  display: none;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.Row div {
+  background-color: #F47500;
+  padding: 12px;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.Row a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.Row td {
+  padding-inline-end: 5px;
+}
+
+.Novene {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.Novene::-webkit-scrollbar {
+  display: none;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.Novene div {
+  width: 150px;
+  height: 120px;
+  background-color: #FBD2AA;
+  padding: 9px;
+  border-radius: 20px;
+
+}
+
+.Novene a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.Novene td {
+  padding-inline-end: 5px;
+}
+
+.img_Novena {
+  border-radius: 100px;
+  width: 65px;
+  float: right;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  margin-bottom: 10px;
+  pointer-events: none;
+}
+
+.nome_Novena {
+  color: black;
+  clear: right;
+}
+
+
+.CompendioCatechistico {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.CompendioCatechistico::-webkit-scrollbar {
+  display: none;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+
+.CompendioCatechistico td {
+  padding-inline-end: 5px;
+}
+
+.CompendioCatechistico div {
+  padding: 9px;
+  width: 150px;
+  height: 100px;
+  background-color: #D9D9D9;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CompendioCatechistico p {
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.CompendioCatechistico a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
