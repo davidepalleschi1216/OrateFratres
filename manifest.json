@@ -1,7 +1,7 @@
 {
     "name": "OrateFratres",
     "short_name": "OrateFratres",
-    "start_url": "Home.php",
+    "start_url": "Home.html",
     "display": "standalone",
     "background_color": "#2B2A2A",
     "theme_color": "#2B2A2A",
